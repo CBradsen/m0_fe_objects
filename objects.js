@@ -9,24 +9,49 @@ foods = {
   apples: 23, 
   grapes: 507, 
   eggs: 48
-}
+};
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+};
+  Object.keys(foods);
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
 // YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+};
+  Object.values(foods);
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
 // YOUR CODE HERE
 
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+};
+  foods.grapes;
+
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
 // YOUR CODE HERE
 
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48
+};
+  foods.pears = 98;
 
 #-------------------
 // Part 2: Email
@@ -41,6 +66,14 @@ foods = {
 
 // Write code that logs your email object to the terminal.
 
+var email = {
+  sender: "`${name}`",
+  receiver: "$`{receiver}`",
+  subject: "hello",
+  body: "Dear "`$[receiver]`",
+  signature: "Your signature here."
+}
+console.log(email);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
